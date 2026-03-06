@@ -1,0 +1,26 @@
+# Konfigurasi Tugas Modul 2
+project:
+  name: "Modul2_YogaArfiyanto"
+  version: "2.0"
+  author: "Yoga Arfiyanto"
+
+paths:
+  wordlists: "./wordlists"
+  results: "./results"
+  logs: "./logs"
+  screenshots: "./screenshots"
+
+targets:
+  live_cracking: "https://target.rootbrain.com/web101/FormCracking/index.php"
+  sql_lesson1: "https://target.rootbrain.com/owasp/injection/lessons/lesson01/index.php"
+  sql_lesson3: "https://target.rootbrain.com/owasp/injection/lessons/lesson03/index.php"
+
+cracking:
+  threads: 10
+  timeout: 300
+  max_attempts: 1000000
+
+logging:
+  level: "INFO"
+  file: "master.log"
+  max_size: 10485760  # 10MB
