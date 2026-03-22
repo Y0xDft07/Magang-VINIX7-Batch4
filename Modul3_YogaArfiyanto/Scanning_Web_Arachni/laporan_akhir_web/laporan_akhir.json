@@ -1,0 +1,43 @@
+{
+  "waktu": "2026-03-18T17:52:48.404057",
+  "semua_isu_web": [],
+  "kerentanan_web_tinggi": [],
+  "eksploit_berhasil": [
+    {
+      "url": "http://vulnweb.rootbrain.com/FileUpload/fileupload1.php",
+      "teknik": "deteksi",
+      "data": "Tidak dapat menentukan field name.",
+      "bypass": "N/A"
+    },
+    {
+      "url": "http://vulnweb.rootbrain.com/FileUpload/fileupload3.php/",
+      "teknik": "deteksi",
+      "data": "Tidak dapat menentukan field name.",
+      "bypass": "N/A"
+    },
+    {
+      "url": "http://vulnweb.rootbrain.com/FileUpload/fileupload2.php",
+      "teknik": "deteksi",
+      "data": "Tidak dapat menentukan field name.",
+      "bypass": "N/A"
+    },
+    {
+      "url": "http://vulnweb.rootbrain.com/FileUpload/fileupload1.php/",
+      "teknik": "deteksi",
+      "data": "Tidak dapat menentukan field name.",
+      "bypass": "N/A"
+    },
+    {
+      "url": "http://vulnweb.rootbrain.com/FileUpload/fileupload2.php/",
+      "teknik": "deteksi",
+      "data": "Tidak dapat menentukan field name.",
+      "bypass": "N/A"
+    },
+    {
+      "url": "http://vulnweb.rootbrain.com/FileUpload/fileupload3.php",
+      "teknik": "deteksi",
+      "data": "Tidak dapat menentukan field name.",
+      "bypass": "N/A"
+    }
+  ]
+}

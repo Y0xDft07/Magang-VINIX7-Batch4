@@ -1,0 +1,37 @@
+[2026-03-18 15:29:33] [INFO] === PENILAIAN DIMULAI ===
+[2026-03-18 15:29:33] [INFO] === MODE: SCAN ARACHNI SAJA ===
+[2026-03-18 15:29:49] [INFO] Arachni ditemukan: Arachni - Web Application Security Scanner Framework v1.6.1.3
+   Author: Tasos "Zapotek" Laskos <tasos.laskos@arachni-scanner.com>
+
+           (With the support of the community and the Arachni Team.)
+
+   Website:       http://arachni-scanner.com
+   Documentation: http://arachni-scanner.com/wiki
+
+
+Arachni 1.6.1.3 (ruby 2.7.5p203) [x86_64-linux]
+[2026-03-18 15:29:49] [INFO] Memulai scan web dengan Arachni...
+[2026-03-18 15:29:49] [INFO] File restrict paths dibuat dengan 51 entri: laporan_akhir_web/web/restrict_paths.txt
+[2026-03-18 15:29:49] [INFO] Menjalankan perintah Arachni (ini bisa memakan waktu hingga 1 jam)...
+[2026-03-18 16:29:49] [ERROR] Scan Arachni gagal dengan kode 124.
+[2026-03-18 16:29:50] [ERROR] Periksa log error di /home/yogaarfiyanto/Downloads/arachni-1.6.1.3-0.6.1.1/logs/framework/error-*.log untuk detail.
+[2026-03-18 17:30:29] [INFO] === PENILAIAN DIMULAI ===
+[2026-03-18 17:31:54] [INFO] === PENILAIAN DIMULAI ===
+[2026-03-18 17:31:54] [INFO] === MODE: EKSPLOITASI MANUAL SAJA ===
+[2026-03-18 17:31:54] [INFO] Menjalankan eksploitasi manual pada semua URL...
+[2026-03-18 17:32:03] [INFO] Eksploitasi manual selesai. 0 temuan.
+[2026-03-18 17:32:03] [INFO] === MEMBUAT LAPORAN ===
+[2026-03-18 17:32:03] [INFO] Laporan HTML tersimpan di laporan_akhir_web/laporan.html
+[2026-03-18 17:32:03] [INFO] === PENILAIAN SELESAI dalam 0.14 menit ===
+[2026-03-18 17:32:22] [INFO] === PENILAIAN DIMULAI ===
+[2026-03-18 17:32:22] [INFO] === MODE: AGGRESSIVE (BYPASS + FUZZING + EXPLOIT) ===
+[2026-03-18 17:32:22] [INFO] Melakukan fuzzing path pada domain...
+[2026-03-18 17:52:48] [INFO] === MEMBUAT LAPORAN ===
+[2026-03-18 17:52:48] [INFO] Laporan HTML tersimpan di laporan_akhir_web/laporan.html
+[2026-03-18 17:52:48] [INFO] === PENILAIAN SELESAI dalam 20.43 menit ===
+[2026-03-18 17:52:48] [INFO] === PENILAIAN DIMULAI ===
+[2026-03-18 17:52:48] [INFO] === PENILAIAN DIMULAI ===
+[2026-03-18 17:52:48] [INFO] === PENILAIAN DIMULAI ===
+[2026-03-18 17:52:48] [INFO] === PENILAIAN DIMULAI ===
+[2026-03-18 17:52:48] [INFO] === PENILAIAN DIMULAI ===
+[2026-03-18 17:53:01] [INFO] === PENILAIAN DIMULAI ===

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Vulnerability Assessment (Web Only)</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1200px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1, h2, h3 { color: #333; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #4CAF50; color: white; }
+        .severity-critical, .severity-high { background-color: #ffcccc; }
+        .severity-medium { background-color: #ffff99; }
+        .severity-low { background-color: #e6f2ff; }
+        .severity-informational { background-color: #d3d3d3; }
+        .summary-box { display: flex; justify-content: space-around; margin: 20px 0; }
+        .box { background-color: #2196F3; color: white; padding: 20px; border-radius: 5px; width: 30%; text-align: center; }
+        .box.web { background-color: #4CAF50; }
+        .box.exploit { background-color: #ff9800; }
+        .footer { margin-top: 30px; font-size: 0.9em; color: #777; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>LAPORAN PENILAIAN KERENTANAN WEB</h1>
+        <p><strong>Tanggal:</strong> 2026-03-18 17:52:48</p>
+        <p><strong>URL Target Web:</strong> http://vulnweb.rootbrain.com</p>
+
+        <div class="summary-box">
+            <div class="box web">Kerentanan Web (High/Critical): 0</div>
+            <div class="box exploit">Eksploitasi Berhasil: 6</div>
+        </div>
+
+        <h2>KEAMANAN APLIKASI WEB</h2>
+        <h3>Ringkasan Severity (Semua Temuan)</h3>
+        <ul>
+<li>CRITICAL: 0</li>
+<li>HIGH: 0</li>
+<li>MEDIUM: 0</li>
+<li>LOW: 0</li>
+<li>INFORMATIONAL: 0</li>
+</ul><p>Total semua isu: 0</p>
+        <h3>Semua Temuan Web</h3>
+        <table>
+            <tr><th>#</th><th>Nama Kerentanan</th><th>URL</th><th>Parameter</th><th>Severity</th><th>CWE</th></tr>
+</table>
+        <h3>Daftar Kerentanan High/Critical</h3>
+        <table>
+            <tr><th>#</th><th>Nama Kerentanan</th><th>URL</th><th>Parameter</th><th>Severity</th><th>CWE</th></tr>
+</table>
+        <h3>Bukti Konsep (Proof of Concept) - Eksploitasi Berhasil</h3>
+
+            <div style="background-color: #e8f5e8; padding: 10px; margin-bottom: 10px; border-left: 5px solid #4CAF50;">
+                <strong>Teknik:</strong> deteksi<br>
+                <strong>Bypass:</strong> N/A<br>
+                <strong>Payload:</strong> <code>N/A</code><br>
+                <strong>URL:</strong> <a href="http://vulnweb.rootbrain.com/FileUpload/fileupload1.php" target="_blank">http://vulnweb.rootbrain.com/FileUpload/fileupload1.php</a><br>
+                <strong>Data Terekstrak:</strong> <pre>Tidak dapat menentukan field name.</pre>
+            </div>
+            
+            <div style="background-color: #e8f5e8; padding: 10px; margin-bottom: 10px; border-left: 5px solid #4CAF50;">
+                <strong>Teknik:</strong> deteksi<br>
+                <strong>Bypass:</strong> N/A<br>
+                <strong>Payload:</strong> <code>N/A</code><br>
+                <strong>URL:</strong> <a href="http://vulnweb.rootbrain.com/FileUpload/fileupload3.php/" target="_blank">http://vulnweb.rootbrain.com/FileUpload/fileupload3.php/</a><br>
+                <strong>Data Terekstrak:</strong> <pre>Tidak dapat menentukan field name.</pre>
+            </div>
+            
+            <div style="background-color: #e8f5e8; padding: 10px; margin-bottom: 10px; border-left: 5px solid #4CAF50;">
+                <strong>Teknik:</strong> deteksi<br>
+                <strong>Bypass:</strong> N/A<br>
+                <strong>Payload:</strong> <code>N/A</code><br>
+                <strong>URL:</strong> <a href="http://vulnweb.rootbrain.com/FileUpload/fileupload2.php" target="_blank">http://vulnweb.rootbrain.com/FileUpload/fileupload2.php</a><br>
+                <strong>Data Terekstrak:</strong> <pre>Tidak dapat menentukan field name.</pre>
+            </div>
+            
+            <div style="background-color: #e8f5e8; padding: 10px; margin-bottom: 10px; border-left: 5px solid #4CAF50;">
+                <strong>Teknik:</strong> deteksi<br>
+                <strong>Bypass:</strong> N/A<br>
+                <strong>Payload:</strong> <code>N/A</code><br>
+                <strong>URL:</strong> <a href="http://vulnweb.rootbrain.com/FileUpload/fileupload1.php/" target="_blank">http://vulnweb.rootbrain.com/FileUpload/fileupload1.php/</a><br>
+                <strong>Data Terekstrak:</strong> <pre>Tidak dapat menentukan field name.</pre>
+            </div>
+            
+            <div style="background-color: #e8f5e8; padding: 10px; margin-bottom: 10px; border-left: 5px solid #4CAF50;">
+                <strong>Teknik:</strong> deteksi<br>
+                <strong>Bypass:</strong> N/A<br>
+                <strong>Payload:</strong> <code>N/A</code><br>
+                <strong>URL:</strong> <a href="http://vulnweb.rootbrain.com/FileUpload/fileupload2.php/" target="_blank">http://vulnweb.rootbrain.com/FileUpload/fileupload2.php/</a><br>
+                <strong>Data Terekstrak:</strong> <pre>Tidak dapat menentukan field name.</pre>
+            </div>
+            
+            <div style="background-color: #e8f5e8; padding: 10px; margin-bottom: 10px; border-left: 5px solid #4CAF50;">
+                <strong>Teknik:</strong> deteksi<br>
+                <strong>Bypass:</strong> N/A<br>
+                <strong>Payload:</strong> <code>N/A</code><br>
+                <strong>URL:</strong> <a href="http://vulnweb.rootbrain.com/FileUpload/fileupload3.php" target="_blank">http://vulnweb.rootbrain.com/FileUpload/fileupload3.php</a><br>
+                <strong>Data Terekstrak:</strong> <pre>Tidak dapat menentukan field name.</pre>
+            </div>
+            
+        <h2>REKOMENDASI PERBAIKAN</h2>
+        <ul>
+            <li>Gunakan query terparameter untuk mencegah SQL Injection.</li>
+            <li>Terapkan validasi input dan encoding output untuk mencegah XSS.</li>
+            <li>Hindari penggunaan fungsi sistem yang tidak aman; gunakan API yang aman.</li>
+            <li>Batasi akses file dan gunakan whitelist untuk LFI.</li>
+            <li>Validasi tipe dan konten file upload; simpan di luar webroot.</li>
+        </ul>
+
+        <h2>DETAIL TEKNIS</h2>
+        <p>Lokasi laporan: laporan_akhir_web/</p>
+        <p>Laporan web (HTML): ekstrak laporan_akhir_web/web/laporan.html.zip</p>
+        <p>Log eksploitasi: laporan_akhir_web/log_eksploitasi.txt</p>
+
+        <div class="footer">
+            Laporan dihasilkan secara otomatis oleh Assessment Tool (Web Only)<br>
+            &copy; 2025 - Project-Based Internship Vinix7
+        </div>
+    </div>
+</body>
+</html>
